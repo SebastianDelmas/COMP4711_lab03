@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+    font-family: 'Amethysta', serif;
+}
+
+
+#DirectoryContainer {
+    margin: auto;
+    border-radius: 4px;
+    width: 50%;
+    height: 125px;
+    border: solid 2px rgb(231, 227, 227);
+    padding: 1em;
+}
+
+
+input[type=text] {
+    width: 95%;
+    padding: 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+.ListContainer {
+    overflow: auto;
+    border: solid 1px rgb(231, 227, 227);
+    width: 30%;
+    margin: auto;
+}
+
+.ProfileImg {
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+
+ul:hover{
+    background-color: aliceblue;
+    cursor:pointer;
+}
+
+ul {
+    vertical-align: center;
+    border: solid 1px rgb(231, 227, 227);
+    margin: 0px;
+    padding: 0 0 0 10px;
+}
+
+li {
+    padding-top: 1em;
+    width: 100%;
+    list-style-type: none;
+}
+
+li img {
+    /* vertical-align: middle; */
+    float: left;
+    padding-right: 1em;
+}
+
+
