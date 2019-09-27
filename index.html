@@ -3,20 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet'>
-
-    <title>COMP4711 - Lab02</title>
+    <script src="main.js" defer></script>
+    <title>COMP4711 - Lab03</title>
 </head>
 <body>
     <div id="DirectoryContainer">
         <h1>Artist Directory</h1>
-        <input type="text">
+        <input type="text">&nbsp<button id="addArtistBtn">Add Artist</button>
+    </div>
+    <div id="FormContainer">
+        <form id="artistForm">
+            <input type="text" placeholder="Artist Name" class="ArtistForm" id="artistNameForm" required>
+            <input type="text" placeholder="About the Artist" class="ArtistForm" id="aboutArtistForm" required>
+            <input type="url" placeholder="Image URL" class="ArtistForm" id="imageURLForm">
+            <input type=submit value="Add">
+
+        </form>
     </div>
 
-    <div class="ListContainer">
-        <ul>
+    <div class="ListContainer" id="listOfArtists">
+
+
+
+
+
+
+        <!-- <ul>
             <li><img class="ProfileImg" src="https://randomuser.me/api/portraits/med/women/1.jpg" alt="Women face One">Barot Bellingham <br> Royal Academy of Painting and Sculpture</li> <br>
         </ul>
 
@@ -34,34 +48,8 @@
 
         <ul>
             <li><img src="https://randomuser.me/api/portraits/med/women/1.jpg" alt="Women face One" height="42" width="42">Jennifer Jerome <br> Royal Academy of Painting and Sculpture</li> <br>
-        </ul>
+        </ul> -->
 
-        <!-- <table align="center">
-                <tr class="hover">
-                <th class="ProfileImg" ><img src="https://randomuser.me/api/portraits/med/women/1.jpg" alt="Women face One" height="42" width="42"></th>
-                <th>Barot Bellingham <br> Royral Academy of Painting and Sculpture</th>
-                </tr>
-                <tr class="hover">
-                    <th class="ProfileImg"><img src="https://randomuser.me/api/portraits/med/women/1.jpg" alt="Women face One" height="42" width="42"></th>
-                    <th>Barot Bellingham <br> Royral Academy of Painting and Sculpture</th>
-                </tr>
-                <tr class="hover">
-                    <th class="ProfileImg"><img src="https://randomuser.me/api/portraits/med/women/1.jpg" alt="Women face One" height="42" width="42"></th>
-                    <th>Barot Bellingham <br> Royral Academy of Painting and Sculpture</th>
-                </tr>
-                <tr class="hover">
-                    <th class="ProfileImg"><img src="https://randomuser.me/api/portraits/med/women/1.jpg" alt="Women face One" height="42" width="42"></th>
-                    <th>Barot Bellingham <br> Royral Academy of Painting and Sculpture</th>
-                </tr>
-                <tr class="hover">
-                    <th class="ProfileImg"><img src="https://randomuser.me/api/portraits/med/women/1.jpg" alt="Women face One" height="42" width="42"></th>
-                    <th>Barot Bellingham <br> Royral Academy of Painting and Sculpture</th>
-                </tr>
-                <tr class="hover">
-                    <th class="ProfileImg"><img src="https://randomuser.me/api/portraits/med/women/1.jpg" alt="Women face One" height="42" width="42"></th>
-                    <th>Barot Bellingham <br> Royral Academy of Painting and Sculpture</th>
-                </tr>
-        </table> -->
     </div>
 </body>
 </html>
