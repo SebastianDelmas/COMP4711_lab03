@@ -73,7 +73,7 @@ document.addEventListener('submit', e => {
         deleteArtist(ulID);
     });
 
-    imgURL.src = "https://randomuser.me/api/portraits/med/women/1.jpg"
+    imgURL.src = artistImg;
 
     pName.innerHTML = artistFirstName;
     pAbout.innerHTML = artistAbout;
